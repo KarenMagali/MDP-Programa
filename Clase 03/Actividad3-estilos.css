@@ -1,0 +1,74 @@
+/*General*/
+
+header{
+    margin-top: 0%;
+    background-image:url(Imágenes3/header.jpg);
+    width: 100%;
+    height: 300px;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+}
+section{
+    background-color:aliceblue;
+    margin: auto;
+    width: 100%;
+   
+}
+footer{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+}
+
+/*Tabla*/
+
+table{
+    width: 100%;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    text-align:justify;
+}
+
+#i{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#info{
+    text-align: center;
+}
+
+#boton{
+margin-left: 40%;
+}
+
+#inf{
+    margin-left: 20px;
+}
+
+/*Footer*/
+#datos{
+    position: absolute;
+    color: #ffffff;
+    font-size:xx-small;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+#foto{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+}
