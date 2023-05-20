@@ -1,0 +1,13 @@
+body{
+    height: auto;
+    width: auto;
+    background-image: url(Imágenes\ 1/aa.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color:rgb(31, 29, 34);
+    margin-top: 100px;
+    margin-bottom: 70px;
+}

@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    color:aliceblue;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    
+}
+h3{
+    display: inline;
+    margin-left: 20px;
+}
+p{
+    display: inline;
+}
+#i{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-left: 1000px;
+}
+ul.opc li{
+    margin-left: 20px;
+}
