@@ -1,0 +1,34 @@
+/* Hace referencia a todo el documento*/
+*{
+font-family: "Playfair", "Nunito Sans";
+}
+
+p{
+    width:50%;
+    text-align: justify;
+    margin-left: 3%;
+}
+
+ul{
+    margin-left: 3%;
+}
+
+p.a{
+    text-align: center;
+    width: auto;
+    margin-right: 3%;
+    
+}
+.imagen{
+    float: right;
+    position: relative;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+.link{
+    float:right;
+    margin-right: 15.5%;
+}
+.redes{
+    margin-left: 3%;
+}
