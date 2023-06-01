@@ -8,7 +8,7 @@ header{
     margin:0%;
     padding: 0%;
     background-color: black;
-    width: 100%;
+    width: 840px;
     height: 100px;
 }
 
@@ -82,11 +82,20 @@ main .cajados{
     background-color: rgb(227, 255, 246);
     float: right;
     padding: 10px;
+}
+
+main .cajados p{
+    margin-top: 20px;
+    text-align: center;
     
 }
 
+main .cajados img{
+    margin-left: 20%;
+}
+
 footer{
-    width: 100%;
+    width: 840px;
     background-color: black;
     height: 60px;
 }
@@ -96,3 +105,4 @@ position: absolute;
 margin-top: 10px;
 margin-left: 20px;
 }
+
