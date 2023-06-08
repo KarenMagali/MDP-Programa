@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 2</title>
     <link href="laboratorio2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 </head>
 <body>
@@ -13,30 +15,96 @@
 
     <header>  
 
-        <h3>Mundo PIZZA</h3>
+        <nav id="navegacion">
+            <ul class="opc"> 
+                <li> <a href="#"> Menú de pizza</a>
+                        <ul class="submenu">
+                            <li><a href="#">Pizza de espinaca</a></li>
+                            <li><a href="#">Pizza de peperoni</a></li>
+                            <li><a href="#">Pizza con pepino </a></li>
+                            <li><a href="#">Pizza de calabresa</a></li>
+                            <li><a href="#">Pizza de jamón y mango</a></li>
+                            <li><a href="#">Pizza de mmuzzarella y tomate</a></li>
+                            <li><a href="#">Pizza con panceta </a></li>
+                            <li><a href="#">Pizza de rúcula</a></li>
+                            <li><a href="#">Pizza vegetariana </a></li>
+                </ul> 
+                </li>
+                <li> <a href="#"> Acerca de nosotros</a></li>
+            </nav>
 
     </header>
 
 <main> 
     <aside> 
 
+    <h3> Menú de pizza </h3>
+    <br>
+    <br>
+    <p> Nos gustaría conocer tu opinión sobre nuestras pizzas. <br> <br> ¿Tenés una preferida? <br><br> ¡Contanos!</p>
+    <br>
+    <form>
+
+        <ul class="opc"> 
+        
+            <nav id="N"> <li> <label for="Nombre">Nombre y apellido</label>
+            <input type="text" id="Nombreyapellido" name="Nombreyapellido" minlength="5" maxlength="30" required placeholder="Nombre y apellido"></li><br/>
+            <br/> 
+            <li> <label for="E-mail">Dirección de correo electrónico</label>
+            <input type="email" id="E-mail" name="E-mail" minlength="5" maxlength="30" required placeholder="E-mail"></li><br/>
+            <br/> 
+            <li> <label for="Situaciónlaboral">¿Cuál es su pizza favorita?</label><br/>
+            <br/>
+            <select name="Situaciónlaboral" required>
+                <option>Pizza de espinaca</option>
+                <option>Pizza de peperoni</option>
+                <option>Pizza con pepino</option>
+                <option>Pizza de calabresa</option>
+                <option>Pizza de jamón y mango</option>
+                <option>Pizza de mmuzzarella y tomate</option>
+                <option>Pizza con panceta</option>
+                <option>Pizza de rúcula</option>
+                <option>Pizza vegetariana</option>
+
+            </select>
+            <br/> 
+            <br/> 
+            <button type="submit"> Enviar</button>
+            <button type="reset"> Limpiar formulario</button>
+        </nav>
+        
+        </ul> 
+        </form>
+
 
     </aside>
 
-    <img src="ImagenesLab2/calabresa.jpg" alt="calabresa" title="foto"/>
-    <img src="ImagenesLab2/espinaca.jpg" alt="espinaca" title="foto"/>
-    <img src="ImagenesLab2/jamonymango.png" alt="jamonymango" title="foto"/>
-    <img src="ImagenesLab2/Muzaytomate.jpg" alt="muzzaytomate" title="foto"/>
-    <img src="ImagenesLab2/panceta.jpg" alt="panceta" title="foto"/>
-    <img src="ImagenesLab2/Peperoni.jpg" alt="Peperoni" title="foto"/>
-    <img src="ImagenesLab2/pepino.jpg" alt="pepino" title="foto"/>
-    <img src="ImagenesLab2/rucula.jpg" alt="rucula" title="foto"/>
-    <img src="ImagenesLab2/vegetariana.jpg" alt="vegetariana" title="foto"/>
+    <section> 
     
+    <nav class="img">
+
+    <img src="ImagenesLab2/calabresa.jpg" alt="calabresa" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/espinaca.jpg" alt="espinaca" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/jamonymango.png" alt="jamonymango" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/Muzaytomate.jpg" alt="muzzaytomate" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/panceta.jpg" alt="panceta" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/Peperoni.jpg" alt="Peperoni" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/pepino.jpg" alt="pepino" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/rucula.jpg" alt="rucula" title="foto" width="65px" height="50px"/>
+    <img src="ImagenesLab2/vegetariana.jpg" alt="vegetariana" title="foto" width="65px" height="50px"/>
+    
+    </nav>
+
+    </section>
 
 </main>
 
     <footer> 
+
+        <nav class="redes">
+            <img src="ImagenesLab2/W.png"  alt="WhatsApp" title="WhatsApp" width="40px" height="40px" /> 
+            <img src="ImagenesLab2/F.png"  alt="Facebook" title="Facebook" width="40px" height="40px" /> 
+            <img src="ImagenesLab2/I.png"  alt="Instagram" title="Instagram" width="40px" height="40px" /> </nav>  
 
     </footer>
 
