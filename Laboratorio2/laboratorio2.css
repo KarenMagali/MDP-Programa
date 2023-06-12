@@ -11,10 +11,12 @@ header{
     background-size: cover;
 }
 
+
 ul.opc{
     float:right ;
     margin-top: 15%;
     margin-right: 4%;
+    margin-left: 4%;
 }
 
 ul.opc li{
@@ -74,6 +76,7 @@ ul.opc li a:hover{
 
 body{
     background-image: url(ImagenesLab2/body.jpg); 
+    max-width: 100%;
 }
 
 main{
@@ -87,24 +90,34 @@ main aside{
     background-color: rgb(255, 255, 255);
     width: 30%;
     height: 600px;
+    float: left;
 }
 
-main section{
-    position: absolute;
-    display: block;
-    width: 70%; 
+.productos{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 600px;
+
+    display: inline-block;
+    float: right;
 }
 
-body main section .img{
-    display: block;
-    position: relative;
-    padding: 10px;
+.img{
+
+    display: grid;
+    grid-template-rows: 170px 170px;
+    grid-template-columns: 220px 220px 220px;
+    margin-top: 5%;
+    margin-left: 18%;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    text-align: center;
 }
 
 body main aside h3{
     position: absolute;
     margin-top:2%; 
-    margin-left: 9%;
+    margin-left: 10%;
 }
 
 body main aside p{
@@ -113,6 +126,8 @@ body main aside p{
     text-align: center;
     margin-top:2%; 
 }
+
+
 /*Formulario*/
 
 #N{
@@ -127,16 +142,18 @@ ul.opc li{
     margin-left: 10px;
 }
 
-
 /* Footer*/
 
 footer{
     background-color: black;
     width: 100%;
     height: 100px;
+    clear: both;
 }
 
-
 footer .redes{
-    margin-left: 3%;
+    margin-top: 2%;
+    position: relative;
+    margin-right: 4%;
+    float: right;
 }
